@@ -11,10 +11,20 @@
     <!-- Cámara AR -->
     <a-scene embedded arjs>
         <!-- Modelo o imagen a mostrar -->
-        <a-image src="Van ghog.jpg" position="0 1.5 -3" rotation="0 0 0" height="1" width="1"></a-image>
+        <a-image src="Van gogh.jpg" position="0 1.5 -3" rotation="0 0 0" height="1" width="1"></a-image>
+        
+        <!-- Texto con información sobre la obra -->
+        <a-text value="La Noche Estrellada\nVincent van Gogh\n1889\nUna obra famosa que muestra un cielo estrellado vibrante." 
+                position="0 0 -2" 
+                width="4" 
+                color="white" 
+                align="center" 
+                font="https://aframe.io/examples/prophets/font/helvetiker_regular.typeface.js"></a-text>
+
         <!-- Luz para visibilidad -->
         <a-light type="ambient" intensity="1"></a-light>
     </a-scene>
 </body>
 </html>
+
 
